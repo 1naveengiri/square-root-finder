@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/square-root-finder",
+	"version": "0.1.0",
+	"title": "Square Root Finder",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"message": {
+			"type": "integer",
+			"source": "text",
+			"selector": "text",
+			"default": ""
+		}
+	},
+	"textdomain": "square-root-finder",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
